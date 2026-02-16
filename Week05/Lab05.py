@@ -178,8 +178,8 @@ def binary_search_recursive(nums, target, left, right):
     if nums[mid] == target:
         return mid
     if target < nums[mid]:
-        return binary_search_recursive(nums, left, mid -1)
-    return binary_search_recursive(nums, mid +1, right)
+        return binary_search_recursive(nums, target, left, mid -1)
+    return binary_search_recursive(nums, target, mid +1, right)
     pass # Remove this line when you add your code
 
 # Wrapper function for recursive solution
