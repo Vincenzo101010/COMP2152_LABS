@@ -1,8 +1,3 @@
-print("\n" + "=" * 50)
-print("Question 1: Robot Return to Origin")
-print("=" * 50)
-
-
 def robot_returns_to_origin(moves):
     """
     Check if robot returns to origin (0,0) after all moves.
