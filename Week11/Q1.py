@@ -59,5 +59,3 @@ if __name__ == "__main__":
     scanner2.display_results()
 
     print("\n" + "=" * 60)
-
-    #git push --set-upstream origin lab_week11
